@@ -24,7 +24,7 @@ function verificarIntento() {
         } else {
             asignarTextoElemento('p','El número secreto es mayor');
         } if (intentos > 4){
-            alert(`Llegaste al número máximo ${intentos} de intentos`);
+            alert(`Llegaste al número máximo de ${intentos} intentos`);
             document.querySelector('#Intentar').setAttribute('disabled','true');
             document.querySelector('#reiniciar').setAttribute('disabled', 'true');
              asignarTextoElemento('h1', 'Fin del Juego');
