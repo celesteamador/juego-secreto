@@ -37,7 +37,10 @@ The conditions of the game are as follows:
 - Button to restart the game
 
 ### 📸 Screenshot
-![Game Screenshot](img/screenshots/image.png)
+<div align="center">
+  <img src="img/screenshots/image.png" alt="Desktop Screenshot" width="69.5%" style="margin-right: 20px;" />
+  <img src="img/screenshots/mobile-image.jpg" alt="Mobile Screenshot" width="22.5%" />
+</div>
 
 ### Project structure
 ```
@@ -116,7 +119,11 @@ Las condiciones del juego son las siguientes:
 - Botón para reiniciar el juego
 
 ### 📸 Captura de pantalla
-![Captura del Juego](img/screenshots/image.png)
+<div align="center">
+  <img src="img/screenshots/image.png" alt="Captura de Escritorio" width="69.5%" style="margin-right: 20px;" />
+  <img src="img/screenshots/mobile-image.jpg" alt="Captura Móvil" width="22.5%" />
+</div>
+
 
 ### Estructura del proyecto
 ```
