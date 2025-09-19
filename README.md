@@ -1,7 +1,15 @@
-## EN 🎮 Secret number game | ES Juego del número secreto | 
-[EN English](#-english) | [ES Español](#-español)
+<div align="center">
 
-## EN English
+## | EN 🎮 Secret number game | ES 🎮 Juego del número secreto | 
+[EN English](#en-english) | [ES Español](#es-español) </br>
+[[Demo](https://celesteamador.me/juego-secreto/)]
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+</div>
+
+## [EN English](#-english)
 
 ### Description  
 A simple web game developed in JavaScript that challenges the user to guess a randomly generated secret number. 
@@ -11,31 +19,41 @@ The conditions of the game are as follows:
 - You have a maximum of 5 attempts to guess the number.
 - When you reach the maximum number of attempts, a banner appears with the following message: “You have reached the maximum number of 5 attempts.”
 
-### Technologies used  
+### 🎯 Game Rules
+1. 🎲 Guess a number between 1-10
+2. 🔄 Maximum 5 attempts
+3. 💡 Get hints: "too high" or "too low"
+4. 🏆 Win by guessing correctly!
+
+### ⚙️ Technologies used  
 - **HTML5** - Application structure (frontend)
 - **CSS3** - Style and responsive design  (frontend)
 - **JavaScript (ES6+)** - Game logic (backend) 
 
-### Features  
+### ✨ Features  
 - Random generation of the secret number  
 - Interactive interface with dynamic messages  
 - Player attempt counter
 - Button to restart the game
 
 ### 📸 Screenshot
-<img width="1327" height="721" alt="image" src="https://github.com/user-attachments/assets/2a51d230-f3c4-43a6-8bad-4c7823fa6bc9" />
+![Game Screenshot](img/screenshots/image.png)
 
 ### Project structure
-secret-game/
-├─ img
-│ └─ Ruido.png
-│ └─ bg.png
-│ └─ code.png
-│ └─ ia.png
+```
+juego-secreto/
+├─ img/
+│   ├─ bg.png
+│   ├─ code.png
+│   ├─ ia.png
+│   ├─ Ruido.png
+│   └─ screenshots/
+│       └─ image.png
 ├─ app.js
 ├─ index.html
 ├─ style.css
 └─ README.md
+```
 
 ### What I learned  
 - Real-time DOM manipulation  
@@ -43,10 +61,10 @@ secret-game/
 - Best practices for separation: structure (HTML), presentation (CSS), and logic (JS)  
 - Creating simple interactive experiences for the web.
 
-### Installation & usage  
+### 🚀 Installation & usage  
 1. Clone the repository:  
 ```bash
-git clone https://github.com/tuusuario/juego-secreto.git
+git clone https://github.com/celesteamador/juego-secreto.git
 cd juego-secreto
   ```
 2. Open `index.html` in your browser or use a local HTTP server
@@ -63,14 +81,14 @@ http-server -p 8000
 # Open http://localhost:8000
   ```
 
-### Demo
+### 🎮 Demo
 - [Play here](https://celesteamador.me/juego-secreto/)
 
-### License
+### 📄 License
 This project is licensed under the MIT license.
 
 
-## ES Español
+## [ES Español](#-español)
 
 ### Descripción  
 Juego web sencillo desarrollado en JavaScript que reta al usuario a adivinar un número secreto generado aleatoriamente. 
@@ -80,29 +98,41 @@ Las condiciones del juego son las siguientes:
 - Se tiene un máximo de 5 intentos para adivinar el número.
 - Al alcanzar el máximo número de intentos aparece un banner con el siguiente mensaje: "Llegaste al número máximo de 5 intentos"
 
-### Tecnologías utilizadas  
+### 🎯 Reglas del juego
+1. 🎲 Adivina un número entre 1 y 10.
+2. 🔄 Máximo 5 intentos.
+3. 💡 Obtén pistas: «demasiado alto» o «demasiado bajo».
+4. 🏆 ¡Gana adivinando correctamente!
+
+### ⚙️ Tecnologías utilizadas  
 - **HTML5** - Estructura de la aplicación (frontend)
 - **CSS3** - Estilo y diseño responsivo  (frontend)
 - **JavaScript (ES6+)** - Lógica del juego (backend) 
 
-### Características  
+### ✨ Características  
 - Generación aleatoria del número secreto  
 - Interfaz interactiva con mensajes dinámicos  
 - Contador de intentos del jugador
 - Botón para reiniciar el juego
 
-### Captura de pantalla
-<img width="1327" height="721" alt="image" src="https://github.com/user-attachments/assets/2a51d230-f3c4-43a6-8bad-4c7823fa6bc9" />
+### 📸 Captura de pantalla
+![Captura del Juego](img/screenshots/image.png)
 
 ### Estructura del proyecto
+```
 juego-secreto/
-├─ img
-│ └─ styles.css
-│ └─ main.js
+├─ img/
+│   ├─ bg.png
+│   ├─ code.png
+│   ├─ ia.png
+│   ├─ Ruido.png
+│   └─ screenshots/
+│       └─ image.png
 ├─ app.js
 ├─ index.html
 ├─ style.css
 └─ README.md
+```
 
 ### Lo que aprendí  
 - Manipulación del DOM en tiempo real  
@@ -110,10 +140,10 @@ juego-secreto/
 - Buenas prácticas de separación: estructura (HTML), presentación (CSS) y lógica (JS)  
 - Creación de experiencias interactivas simples para la web.
 
-### Instalación & uso  
+### 🚀 Instalación & uso  
 1. Clona el repositorio:  
 ```bash
-git clone https://github.com/tuusuario/juego-secreto.git
+git clone https://github.com/celesteamador/juego-secreto.git
 cd juego-secreto
   ```
 2. Abre `index.html` en tu navegador o utiliza un servidor HTTP local
@@ -130,8 +160,8 @@ http-server -p 8000
 # Abre http://localhost:8000
 ```
 
-### Demo
+### 🎮 Demo
 - [Juega aquí](https://celesteamador.me/juego-secreto/)
 
-### Licencia
+### 📄 Licencia
 Este proyecto está bajo la licencia MIT.
